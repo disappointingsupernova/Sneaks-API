@@ -1,0 +1,10 @@
+version: "2.4"
+name: sneaksapi
+services:
+  sneaksapi:
+    container_name: sneaksapi
+    image: sariktech/sneaksapi:v1
+    restart: always
+    ports:
+      - 13132:3000/tcp
+
